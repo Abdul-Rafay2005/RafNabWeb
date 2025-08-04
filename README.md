@@ -36,17 +36,3 @@ _(Replace this with your live URL)_
 | CSS3         |             | Devicon     |
 | JavaScript   |             |             |
 
----
-
-## 📂 Folder Structure
-
-rafnabsolution/
-├── index.html
-├── about.html
-├── services.html
-├── contact.html
-├── projects.html
-├── css/
-│ └── style.css
-└── assets/
-└── images/
