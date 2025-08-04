@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Us | Rafnabsolution</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
-<body>
 
-  <!-- Header -->
+<body>
+  <!-- Navbar -->
   <header class="navbar">
     <div class="container">
-      <div class="logo">
-        <a href="index.html">Rafnabsolution</a>
-      </div>
+      <div class="logo"><a href="index.html">Rafnabsolution</a></div>
       <nav>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
@@ -25,34 +25,70 @@
     </div>
   </header>
 
-  <!-- About Section -->
-  <section class="hero">
-    <div class="container">
-      <h1>About Us</h1>
-      <p>We are Rafnabsolution — a tech-driven software company built by two passionate Indian engineers.</p>
+  <!-- Hero Section -->
+  <section class="hero about-hero">
+    <div class="container" data-aos="fade-up">
+      <h1>About Rafnabsolution</h1>
+      <p>Empowering digital transformation with innovative and scalable solutions.</p>
     </div>
   </section>
 
-  <section class="about-content">
+  <!-- Founders Section -->
+  <section class="founders" data-aos="fade-up">
     <div class="container">
-      <h2>Our Story</h2>
-      <p>Founded in 2025, Rafnabsolution was born from a shared vision: to build digital solutions that empower businesses of all sizes. As two engineers with a background in full-stack development and software consulting, we combined our strengths to offer high-quality, scalable IT services to a global market.</p>
-
-      <h2>Our Mission</h2>
-      <p>To deliver modern, secure, and efficient software that solves real-world problems and helps businesses grow.</p>
-
-      <h2>Our Vision</h2>
-      <p>To become a globally recognized IT solutions provider, trusted for our innovation, reliability, and people-first approach.</p>
-
-      <h2>Founders</h2>
-      <ul>
-        <li><strong>Founder 1:</strong> [Your Name] – Software Developer, Full Stack Engineer</li>
-        <li><strong>Founder 2:</strong> [Your Name] – Software Architect, Cloud Expert</li>
-      </ul>
+      <h2>Meet the Founders</h2>
+      <div class="founders-grid">
+        <div class="founder-card">
+          <i class="fas fa-user-graduate fa-2x"></i>
+          <h3>Co-founder</h3>
+          <p>Abdul Rafay from NED University, focused on backend systems, architecture & cloud deployment.</p>
+        </div>
+        <div class="founder-card">
+          <i class="fas fa-user-astronaut fa-2x"></i>
+          <h3>Co-founder</h3>
+          <p>Syed Nabeel  from NED University, passionate about UI/UX, product design & mobile solutions.</p>
+        </div>
+      </div>
     </div>
   </section>
 
+  <!-- Mission & Vision -->
+  <section class="mission" data-aos="fade-up">
+    <div class="container">
+      <h2>Our Mission & Vision</h2>
+      <p>We aim to help businesses grow through tailored digital solutions — from startups to enterprises.</p>
+      <p>Our vision is to be recognized globally for building meaningful, result-driven technology.</p>
+    </div>
+  </section>
 
+  <!-- Our Approach -->
+  <section class="our-approach" data-aos="fade-up">
+    <div class="container">
+      <h2>Our Approach</h2>
+      <div class="approach-grid">
+        <div class="approach-step">
+          <i class="fas fa-lightbulb fa-2x"></i>
+          <h4>Discover</h4>
+          <p>Understand your challenges and goals.</p>
+        </div>
+        <div class="approach-step">
+          <i class="fas fa-pencil-ruler fa-2x"></i>
+          <h4>Design</h4>
+          <p>Create meaningful designs with a user-first mindset.</p>
+        </div>
+        <div class="approach-step">
+          <i class="fas fa-code fa-2x"></i>
+          <h4>Develop</h4>
+          <p>Use modern tech stacks for fast, secure, scalable solutions.</p>
+        </div>
+        <div class="approach-step">
+          <i class="fas fa-rocket fa-2x"></i>
+          <h4>Deliver</h4>
+          <p>On-time, bug-free, with long-term support.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="footer">
@@ -61,5 +97,13 @@
     </div>
   </footer>
 
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 1000
+    });
+  </script>
 </body>
 </html>
